@@ -1,0 +1,31 @@
+
+.URL-input, .convert-button, .convert-button-mp3 {
+    font-size:1.3em;
+    padding:5px 10px;
+}
+.URL-input {
+    border-radius:10px 0px 10px 0px;
+    width:70%;
+    text-align: center;
+    border:2px solid #EEEEEE;
+    background: #EEEEEE;
+    outline:none; 
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.URL-input:focus {
+    border:2px solid #ed563b;
+}
+.convert-button, .convert-button-mp3{
+    border-radius:10px 0px 10px 0px;
+    border:2px solid #ed5630;
+    background: #ed563b;
+    color:white;
+    margin-left: 20px;
+}
+
+.btn-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
